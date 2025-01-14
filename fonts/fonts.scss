@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Orbitron:wght@400..900&display=swap");
+
+@for $weight from 100 through 900 {
+  .lexend-#{$weight} {
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: #{$weight};
+    font-style: normal;
+  }
+  .orbitron-#{$weight} {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: #{$weight};
+    font-style: normal;
+  }
+}
